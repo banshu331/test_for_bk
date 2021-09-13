@@ -1,3 +1,4 @@
-String s = "password=123";
-String password = "123456";
-String password = "key";
+$password = $_GET['password'];
+$user = $_GET['user'];
+String s = "select * from db where password =".$pasword."and user=".$user;
+
