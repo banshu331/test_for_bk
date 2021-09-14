@@ -1,3 +1,4 @@
+$domain = "bkzhibo.com"
 $password = $_GET['password'];
 $user = $_GET['user'];
 String s = "select * from db where password =".$pasword."and user=".$user;
